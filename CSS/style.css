@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+.container {
+    max-width: 1105px;
+    margin: 0 auto;
+}
+body{
+    background-color: #EEEFF1;
+}
+.header-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 57px;
+}
+@media screen and (max-width: 768px) {
+    .header-wrapper{
+        padding-top: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+.nav-links__item{
+    text-decoration: none;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 10%;
+    margin-left: 42px;
+    color: black;
+}
+.nav-links__item--main{
+    color: #34547A;
+}
+@media screen and (max-width: 768px) {
+    .navbar{
+        justify-content: center;
+        flex-direction: column;
+    }
+}
+.about-wrapper{
+    padding-top: 144px;
+    margin-bottom: 142px;
+    display: flex;
+    align-items: center;
+}
+@media screen and (max-width: 992px) {
+    .about-wrapper{
+        align-items: center; 
+        padding-top: 130px; 
+        display: flex; 
+        flex-direction: column; 
+        justify-content: center;
+    }
+}
+.text-wrapper{
+    padding-left: 139.13px;
+}
+@media screen and (max-width: 992px) {
+    .text-wrapper{
+        padding-top: 20px; 
+        max-width: 540px; 
+        text-align: center; 
+        padding-left: 0;
+    }
+}
+.section-about__title{
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 48px;
+    color: black;
+    margin-bottom: 0px;
+}
+.section-about__text{
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #727272;
+    margin-top: 60px;
+    margin-bottom: 0px;
+    line-height: 26.25px;
+}
+@media screen and (max-width: 576px) {
+    .section-about__text{
+        margin-top: 60px;
+        min-width: 200px;
+        font-size: 16px;
+        line-height: 26px;
+    }
+}
+.section-about__button{
+    background-color: #34547A;
+    color: white;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    border: none;
+    min-width: 241.85px;
+    min-height: 65px;
+    margin-top: 60px;
+}
+@media screen and (max-width: 992px) {
+    .section-about__button{
+        margin-top: 20px; 
+        min-width: 200px; 
+        min-height: 55px;
+    }
+}
